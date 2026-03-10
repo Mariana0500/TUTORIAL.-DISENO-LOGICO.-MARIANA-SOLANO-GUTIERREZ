@@ -4,4 +4,9 @@
 
 Guía para la construcción del entorno de desarrollo de código abierto para la FPGA Tang Nano 9k
 
+Instalación de la extensión Lushay Code
 ![Circuito](images/Captura1.png)
+
+Instalación del OSS Cad Suite en Visual
+
+
