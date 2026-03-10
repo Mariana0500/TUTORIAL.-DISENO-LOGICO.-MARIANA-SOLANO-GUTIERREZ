@@ -1,48 +1,57 @@
-# TUTORIAL.-DISENO-LOGICO.-MARIANA-SOLANO-GUTIERREZ
+# TUTORIAL – DISEÑO LÓGICO
+### Mariana Solano Gutiérrez
 
-**1. Instalación de las herramientas**
+---
 
-Guía para la construcción del entorno de desarrollo de código abierto para la FPGA Tang Nano 9k
+## 1. Instalación de las herramientas
 
-Instalación de la extensión Lushay Code
-![Circuito](images/Captura1.png)
+Guía para la construcción del entorno de desarrollo de código abierto para la FPGA **Tang Nano 9K**.
 
-Instalación del OSS Cad Suite en Visual
-![Circuito](images/Captura2.png)
+### Instalación de la extensión Lushay Code
+![Instalación Lushay Code](images/Captura1.png)
 
-Configuración del Driver USB de Windows con el programa Zadig
-![Circuito](images/Captura3.png)
+### Instalación del OSS CAD Suite en Visual
+![Instalación OSS CAD Suite](images/Captura2.png)
 
-Instalación de GNU-Make y configuración el las variables de entorno de Windows
-![Circuito](images/Captura4.png)
+### Configuración del driver USB de Windows con Zadig
+![Configuración Zadig](images/Captura3.png)
 
-**2. Uso del toolchain para diseño en FPGA**
+### Instalación de GNU Make y configuración de las variables de entorno de Windows
+![Instalación GNU Make](images/Captura4.png)
 
-Carpetas y archivos necesarios
+---
 
-Clonación del repositorio para los proyectos
-![Circuito](images/Captura5.png)
+## 2. Uso del toolchain para diseño en FPGA
 
-Clonación del repositorio para el tutorial
-![Circuito](images/Captura6.png)
+### Carpetas y archivos necesarios
 
-Inicializar la terminal toolchain
-![Circuito](images/Captura7.png)
+### Clonación del repositorio para los proyectos
+![Clonación del repositorio de proyectos](images/Captura5.png)
 
-![Circuito](images/Captura8.png)
+### Clonación del repositorio para el tutorial
+![Clonación del repositorio del tutorial](images/Captura6.png)
 
-![Circuito](images/Captura9.png)
+### Inicializar la terminal toolchain
+![Inicializar terminal toolchain 1](images/Captura7.png)
 
-Cambiar la dirección de la ruta a build
-![Circuito](images/Captura10.png)
+![Inicializar terminal toolchain 2](images/Captura8.png)
 
-Verificación de los diseños y simulación tenemos los siguientes comandos
+![Inicializar terminal toolchain 3](images/Captura9.png)
 
-![Circuito](images/Captura11.png)
-![Circuito](images/Captura12.png)
-![Circuito](images/Captura13.png)
-![Circuito](images/Captura14.png)
-![Circuito](images/Captura15.png)
+### Cambiar la dirección de la ruta a `build`
+![Cambio de ruta a build](images/Captura10.png)
 
+### Verificación de los diseños y simulación
 
+A continuación, se muestran los comandos utilizados para la verificación de los diseños y la simulación:
+
+![Comando 1](images/Captura11.png)
+
+![Comando 2](images/Captura12.png)
+
+![Comando 3](images/Captura13.png)
+
+![Comando 4](images/Captura14.png)
+
+![Comando 5](images/Captura15.png)
 
