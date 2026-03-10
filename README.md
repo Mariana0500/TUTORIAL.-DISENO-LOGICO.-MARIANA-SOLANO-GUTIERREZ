@@ -1,6 +1,6 @@
 # TUTORIAL.-DISENO-LOGICO.-MARIANA-SOLANO-GUTIERREZ
 
-1. Instalación de las herramientas
+**1. Instalación de las herramientas**
 
 Guía para la construcción del entorno de desarrollo de código abierto para la FPGA Tang Nano 9k
 
@@ -15,4 +15,10 @@ Configuración del Driver USB de Windows con el programa Zadig
 
 Instalación de GNU-Make y configuración el las variables de entorno de Windows
 ![Circuito](images/Captura4.png)
+
+**2. Uso del toolchain para diseño en FPGA**
+
+Carpetas y archivos necesarios
+
+Clonación del repositorio para los proyectos
 
