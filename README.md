@@ -55,3 +55,12 @@ A continuación, se muestran los comandos utilizados para la verificación de lo
 
 ![Comando 5](images/Captura15.png)
 
+### Contenido de un Makefile
+
+A continuación, se muestran algunos comandos que se extrajeron del Makefile de los ejemplos que se usaron en la plantilla del tutorial.
+
+![Comando 1](images/Captura16.png)
+
+![Comando 1](images/Captura17.png)
+
+![Comando 1](images/Captura18.png)
