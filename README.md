@@ -64,3 +64,9 @@ A continuación, se muestran algunos comandos que se extrajeron del Makefile de 
 ![Comando 1](images/Captura17.png)
 
 ![Comando 1](images/Captura18.png)
+
+## 3. Descarga de la plantilla
+
+A continuación, se muestra la plantilla para proyectos en el Visual ya instalada.
+
+
