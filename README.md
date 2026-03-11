@@ -69,4 +69,4 @@ A continuación, se muestran algunos comandos que se extrajeron del Makefile de 
 
 A continuación, se muestra la plantilla para proyectos en el Visual ya instalada.
 
-
+![Comando 1](images/Captura19.png)
