@@ -75,4 +75,4 @@ A continuación, se muestra la plantilla para proyectos en el Visual ya instalad
 
 A cuntinuación se muestra la captura del Display funcionando a 5V con el FPGA.
 
-![Comando 1](images/Captura20.png)
+![Comando 1](images/Captura20.jpg)
