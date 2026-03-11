@@ -70,3 +70,9 @@ A continuación, se muestran algunos comandos que se extrajeron del Makefile de 
 A continuación, se muestra la plantilla para proyectos en el Visual ya instalada.
 
 ![Comando 1](images/Captura19.png)
+
+## 4. Primer diseño. Display de 7 segmentos
+
+A cuntinuación se muestra la captura del Display funcionando a 5V con el FPGA.
+
+![Comando 1](images/Captura20.png)
