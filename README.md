@@ -6,7 +6,7 @@
 # 1. Instalación de las herramientas
 
 Guía para la construcción del entorno de desarrollo de código abierto para la FPGA **Tang Nano 9K**.  
-En esta sección se describen los pasos necesarios para instalar y configurar las herramientas requeridas para el diseño, simulación y programación de circuitos digitales en FPGA.
+En esta sección se van a describir los pasos para instalar y configurar los programas requeridos para la correcta utilización del FPGA en el curso.
 
 ---
 
@@ -21,7 +21,7 @@ La extensión **Lushay Code** permite integrar el flujo de trabajo de diseño pa
 ## Instalación del OSS CAD Suite en Visual
 
 El **OSS CAD Suite** es un conjunto de herramientas de código abierto utilizadas para el desarrollo de sistemas digitales en FPGA.  
-Incluye programas como **Yosys**, **nextpnr**, **Icarus Verilog**, **GTKWave** y **OpenFPGALoader**, los cuales permiten realizar la síntesis, simulación y programación del dispositivo.
+Incluye programas como **Yosys** (Que se probará proximamente), los cuales permiten realizar la simulación y programación del FPGA.
 
 ![Instalación OSS CAD Suite](images/Captura2.png)
 
@@ -29,7 +29,7 @@ Incluye programas como **Yosys**, **nextpnr**, **Icarus Verilog**, **GTKWave** y
 
 ## Configuración del driver USB de Windows con Zadig
 
-El programa **Zadig** se utiliza para instalar o configurar los drivers USB necesarios para que el sistema operativo pueda reconocer correctamente la FPGA **Tang Nano 9K** y permitir su programación desde el computador.
+El programa **Zadig** se utiliza para instalar o configurar los drivers USB necesarios para que el sistema operativo pueda reconocer correctamente la FPGA **Tang Nano 9K** y permitir su programación desde la computadora.
 
 ![Configuración Zadig](images/Captura3.png)
 
@@ -38,7 +38,7 @@ El programa **Zadig** se utiliza para instalar o configurar los drivers USB nece
 ## Instalación de GNU Make y configuración de las variables de entorno de Windows
 
 **GNU Make** es una herramienta que permite automatizar el proceso de compilación del proyecto.  
-A través del archivo **Makefile** se ejecutan automáticamente los comandos necesarios para sintetizar, simular y cargar el diseño en la FPGA.
+A través del archivo **Makefile** se ejecutan automáticamente los comandos necesarios para simular y cargar el diseño en la FPGA.
 
 ![Instalación GNU Make](images/Captura4.png)
 
@@ -46,7 +46,7 @@ A través del archivo **Makefile** se ejecutan automáticamente los comandos nec
 
 # 2. Uso del toolchain para diseño en FPGA
 
-En esta sección se muestra el flujo de trabajo utilizado para compilar y simular diseños digitales utilizando las herramientas instaladas previamente.
+En esta sección se muestra el código de trabajo utilizado para compilar y simular diseños digitales utilizando las herramientas instaladas previamente.
 
 ---
 
@@ -66,7 +66,7 @@ Se clona el repositorio que contiene los ejemplos y proyectos necesarios para tr
 
 ## Clonación del repositorio para el tutorial
 
-Posteriormente se clona el repositorio correspondiente al tutorial que se utilizará para realizar las pruebas del entorno de desarrollo.
+Posteriormente se clona el repositorio correspondiente al tutorial que se utilizará para realizar las pruebas en el FPGA y comprobar que todo se instaló correctamente.
 
 ![Clonación del repositorio del tutorial](images/Captura6.png)
 
@@ -110,7 +110,7 @@ A continuación se ejecutan los comandos necesarios para verificar el funcionami
 
 # 3. Descarga de la plantilla
 
-En esta sección se muestra la plantilla de proyectos ya instalada dentro de **Visual Studio Code**, la cual facilita la creación de nuevos diseños para la FPGA.
+En esta sección se muestra la plantilla de proyectos ya instalada dentro de **Visual Studio Code**, la cual es la que posteriormente se va a utilizar para realizar los proyectos del curso.
 
 ![Plantilla instalada](images/Captura19.png)
 
@@ -120,9 +120,9 @@ En esta sección se muestra la plantilla de proyectos ya instalada dentro de **V
 
 Se implementa un diseño básico para controlar un **display de 7 segmentos** utilizando la FPGA Tang Nano 9K.
 
-Este tipo de display permite representar números mediante la activación de diferentes combinaciones de segmentos.
+Este tipo de display permite representar números mediante la activación de diferentes combinaciones en el switch.
 
-A continuación se muestra el funcionamiento del circuito con el display alimentado a **5V**.
+A continuación se muestra el funcionamiento del circuito con el display alimentado a **5V** por medio de la FPGA.
 
 ![Display funcionando](images/Captura20.jpg)
 
@@ -130,7 +130,7 @@ A continuación se muestra el funcionamiento del circuito con el display aliment
 
 ## Configuración de la FPGA desde la programación
 
-El proceso de compilación y programación de la FPGA se realiza mediante comandos definidos dentro del archivo **Makefile**, el cual automatiza el flujo de síntesis, implementación y carga del diseño.
+El proceso de compilación y programación de la FPGA se realiza mediante comandos definidos dentro del archivo **Makefile**, el cual automatiza, implementa y carga el diseño.
 
 A continuación se muestran algunos de los comandos utilizados.
 
